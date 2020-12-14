@@ -7,7 +7,7 @@
   src: url(../font/Ubuntu-Light.ttf);
 }
 body{
-	width: 1200px;
+
 	margin: 0 auto;
 	color: #626262;
 	font:  14px Play-Regular serif;
@@ -58,10 +58,13 @@ body{
 /*---------------------------------------HEADER-------------------------------------------*/
 
 .content{
-	width: 900px;
 	margin: 0 auto;
 	height: 3000px;
 	padding-top: 20px;
+}
+.content .container{
+	width: 900px;
+	margin: 0 auto;
 }
 .content .row{
 	height: auto;
